@@ -31,5 +31,5 @@ import java.lang.annotation.Target;
 public @interface ConfirmEmail {
     int sequence()      default -1;
     int messageResId()  default -1;
-    String message()    default "Emails don't match";
+    String message()    default "请输入正确的邮箱地址";
 }

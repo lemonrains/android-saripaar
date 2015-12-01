@@ -33,5 +33,5 @@ public @interface Email {
 
     int sequence()          default -1;
     int messageResId()      default -1;
-    String message()        default "Invalid email";
+    String message()        default "??“ü³?“I?” ’nš¬";
 }

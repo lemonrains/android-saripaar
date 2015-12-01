@@ -33,5 +33,5 @@ public @interface Select {
 
     int sequence()          default -1;
     int messageResId()      default -1;
-    String message()        default "Select a value";
+    String message()        default "请选择";
 }

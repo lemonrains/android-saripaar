@@ -35,5 +35,5 @@ public @interface Past {
 
     int sequence()          default -1;
     int messageResId()      default -1;
-    String message()        default "Date should be in the past";
+    String message()        default "请输入一个过去的日期";
 }

@@ -34,7 +34,7 @@ public @interface Password {
 
     int sequence()      default -1;
     int messageResId()  default -1;
-    String message()    default "Invalid password";
+    String message()    default "密码格式不正确";
 
     enum Scheme {
         ANY, ALPHA, ALPHA_MIXED_CASE,

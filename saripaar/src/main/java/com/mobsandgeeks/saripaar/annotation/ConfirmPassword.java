@@ -31,5 +31,5 @@ import java.lang.annotation.Target;
 public @interface ConfirmPassword {
     int sequence()      default -1;
     int messageResId()  default -1;
-    String message()    default "Passwords don't match";
+    String message()    default "?Ä?“üˆêŸ‘Š“¯“I–§?";
 }

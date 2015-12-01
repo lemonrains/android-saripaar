@@ -33,5 +33,5 @@ public @interface Checked {
 
     int sequence()      default -1;
     int messageResId()  default -1;
-    String message()    default "Must be checked";
+    String message()    default "???";
 }

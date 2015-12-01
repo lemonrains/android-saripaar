@@ -34,5 +34,5 @@ public @interface Digits {
 
     int sequence()      default -1;
     int messageResId()  default -1;
-    String message()    default "Should be a digit";
+    String message()    default "请输入正确的数字";
 }

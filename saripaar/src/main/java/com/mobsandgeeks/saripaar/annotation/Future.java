@@ -35,5 +35,5 @@ public @interface Future {
 
     int sequence()          default -1;
     int messageResId()      default -1;
-    String message()        default "Date should be in the future";
+    String message()        default "??“üˆê˜¢–¢—ˆ“I“úŠú";
 }

@@ -34,5 +34,5 @@ public @interface Url {
 
     int sequence()              default -1;
     int messageResId()          default -1;
-    String message()            default "Invalid URL";
+    String message()            default "请输入正确的URL地址";
 }

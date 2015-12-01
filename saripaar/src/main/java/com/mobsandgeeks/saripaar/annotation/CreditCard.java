@@ -36,7 +36,7 @@ public @interface CreditCard {
 
     int sequence()      default -1;
     int messageResId()  default -1;
-    String message()    default "Invalid card";
+    String message()    default "??“ü³?“I?†";
 
     enum Type {
         AMEX, DINERS, DISCOVER, MASTERCARD, VISA, NONE

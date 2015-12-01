@@ -35,5 +35,5 @@ public @interface Length {
 
     int sequence()      default -1;
     int messageResId()  default -1;
-    String message()    default "Invalid length";
+    String message()    default "请输入正确的字符长度";
 }

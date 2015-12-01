@@ -33,5 +33,5 @@ public @interface Domain {
 
     int sequence()          default -1;
     int messageResId()      default -1;
-    String message()        default "Invalid domain name";
+    String message()        default "??“ü³?“Iˆæ–¼";
 }
